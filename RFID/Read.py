@@ -24,6 +24,7 @@
 import RPi.GPIO as GPIO
 import MFRC522
 import signal
+import urllib2
 
 continue_reading = True
 
