@@ -40,7 +40,7 @@ while continue_reading:
 
         # Print UID
         print "Card read UID: %s,%s,%s,%s" % (uid[0], uid[1], uid[2], uid[3])
-        link = "http://ec2-34-217-109-121.us-west-2.compute.amazonaws.com/insert_id?epc="+str(uid[0])+str(uid[1])+str(uid[2])+str(uid[3])
+        link = "http://ec2-3-83-102-218.compute-1.amazonaws.com/insert_id?epc="+str(uid[0])+str(uid[1])+str(uid[2])+str(uid[3])
         contents = urllib2.urlopen(link).read()
         # This is the default key for authentication
         key = [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF]
